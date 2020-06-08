@@ -11,7 +11,7 @@ class CfgSounds
     class LoadingScreenMusic
     {
         name = "LoadingScreenMusic";
-        sound[] = {"\kfb_assets\sound\aggressor.ogg", db+0, 1.0};
+        sound[] = {"\kfb_assets\sound\aggressor.ogg", db-8, 1.0};
         titles[] = {};
     };
 };
