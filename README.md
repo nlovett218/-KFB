@@ -2,5 +2,5 @@
 KFB addon folder. Needed to connect to server.
 
 
-Version: 1
-Updated: 06-08-2020 01:50:00 PM EST [American Format]
+Version: 2
+Updated: 06-10-2020 04:49:00 PM EST [American Format]
