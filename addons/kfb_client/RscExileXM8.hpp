@@ -192,7 +192,7 @@ class RscExileXM8 {
 							w = 20.5 * (0.025);
 							h = 12 * (0.04);
 							colorBackground[] = {0, 0, 0, 0.25};
-							text = "<t size='1.3' color='#00b2cd'>Discord</t><br/>Click <a href='https://discord.gg/BNKMCZC'>here</a> to join our Discord. Introduce yourself and be part of our community today!<br /><br /><t size='1.3' color='#d74948'>Exile Server Manager</t><br/>Want real-time Base Raid notifications, Protection Payment reminders, and more? Whisper <t color='#d74948'>!register</t> to the Exile Server Manager bot in our Discord. Use <t color='#d74948'>!commands</t> and to link and manage your Territory.";
+							text = "<t size='1.3' color='#00b2cd'>Discord</t><br/>Click <a href='https://discord.me/kfb-exile'>here</a> to join our Discord. Introduce yourself and be part of our community today!<br /><br /><t size='1.3' color='#d74948'>Exile Server Manager</t><br/>Want real-time Base Raid notifications, Protection Payment reminders, and more? Whisper <t color='#d74948'>!register</t> to the Exile Server Manager bot in our Discord. Use <t color='#d74948'>!commands</t> and to link and manage your Territory.";
 							size = "24 * pixelH";
 							
 							class Attributes {

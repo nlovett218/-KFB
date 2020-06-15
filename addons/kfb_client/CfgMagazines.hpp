@@ -17,7 +17,7 @@ class CfgMagazines {
 		scope = public;
 		displayName = "Thermal Scanner Pro";
 		descriptionShort = "Prints thermal image of the last three digits on a recently used code lock. Must be used within 15 minutes of the lock being used to get a print.";
-		picture = "\kfb_assets\textures\items\FK_ThermalScannerPro.paa";
+		picture = "\kfb_assets\textures\item\thermalscannerpro.paa";
 		model = "\exile_assets\model\Exile_Item_ThermalScannerPro.p3d";
 		mass = 5;
 		count = 5;
