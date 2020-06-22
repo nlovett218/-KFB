@@ -74,12 +74,12 @@ uiNameSpace setVariable ["ExileClient_gui_loadingScreen_load",
 	{
 		case "RscDisplayMultiplayerSetup":
 		{
-			_spinnerTextControl ctrlSetStructuredText (parseText "<t>Joining...</t>");
+			_spinnerTextControl ctrlSetStructuredText (parseText "<t>Taking a bite out of the hot pocket...</t>");
 		};
 
 		case "RscDisplayClient":
 		{
-			_spinnerTextControl ctrlSetStructuredText (parseText "<t>Connecting...</t>");
+			_spinnerTextControl ctrlSetStructuredText (parseText "<t>Heating up a hot pocket...</t>");
 			
 			/*if !(_loadScreenMusicInit) then {
 				diag_log "Playing KFB loading screen music!";
@@ -92,7 +92,7 @@ uiNameSpace setVariable ["ExileClient_gui_loadingScreen_load",
 
 		case "RscMPSetupMessage":
 		{
-			_spinnerTextControl ctrlSetStructuredText (parseText "<t>Downloading...</t>");
+			_spinnerTextControl ctrlSetStructuredText (parseText "<t>Oh sh%t! I just burned my tongue...</t>");
 		};
 
 		default
@@ -100,7 +100,7 @@ uiNameSpace setVariable ["ExileClient_gui_loadingScreen_load",
 			// 1 out of 10 is link
 			if ((floor (random 10)) < 1) then 
 			{
-				_loadingText = "<t>Your text here? Make a suggestion: </t><t color='#c72651'>https://discord.gg/BNKMCZC</t>";
+				_loadingText = "<t>Your text here? Make a suggestion: </t><t color='#c72651'>https://discord.me/kfb-exile</t>";
 			}
 			else 
 			{
