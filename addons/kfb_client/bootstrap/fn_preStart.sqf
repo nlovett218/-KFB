@@ -81,6 +81,10 @@ uiNameSpace setVariable ["ExileClient_gui_loadingScreen_load",
 		{
 			_spinnerTextControl ctrlSetStructuredText (parseText "<t>Heating up a hot pocket...</t>");
 			
+			/* 
+				Found out the hard way that music/sound cuts off when entering a loading screen. BIS!!!!
+			*/
+
 			/*if !(_loadScreenMusicInit) then {
 				diag_log "Playing KFB loading screen music!";
 				uiNamespace setVariable["KFB_loadingScreenMusicInit", true];
